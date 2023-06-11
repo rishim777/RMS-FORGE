@@ -26,9 +26,6 @@
     "url": "git@github.com:rishim777/RTS-UI.git"
   },
   "browserslist": ">0.1% in ID, not dead",
-  "publishConfig": {
-    "access": "restricted"
-  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },

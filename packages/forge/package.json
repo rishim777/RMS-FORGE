@@ -32,8 +32,5 @@
   "bugs": {
     "url": "https://github.com/rishim777/RMS-FORGE/issues"
   },
-  "publishConfig": {
-    "access": "restricted"
-  },
   "browserslist": ">0.1% in ID, not dead"
 }
