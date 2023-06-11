@@ -1,0 +1,15 @@
+@use 'sass:string';
+
+@mixin text-truncate($line-clamp) {
+  @if $line-clamp {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* stylelint-disable-next-line value-no-vendor-prefix */
+    display: -webkit-box;
+    -webkit-line-clamp: $line-clamp;
+    line-clamp: $line-clamp;
+    -webkit-box-orient: vertical;
+  } @else {
+    @warn "No value provided for line-clamp";
+  }
+}

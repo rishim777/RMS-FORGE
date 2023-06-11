@@ -1,0 +1,177 @@
+:root {
+  /* Primary Color */
+  --color-black-100: #00050d;
+  --color-black-200: #2b2a33;
+  --color-black-300: #1e1d27;
+  --color-orange-100: #ee573d;
+  --color-orange-200: #e94b3c;
+  --color-orange-300: #e9967a;
+  --color-grey-100: #2f2f31e6;
+  --color-grey-200: #6f7274;
+  --color-grey-300: #dadce0;
+  --color-gold-100: #ffdd40;
+  --color-gold-200: #ffc85c;
+  --color-blue: #1399de;
+  --color-white: #fff;
+  --color-yellow: #ff9f19;
+  --color-red: #d74646;
+  --color-pink: #f35762;
+  --color-green: #10ab8b;
+
+  /* Extra Color */
+  --color-palette-one-100: #264653;
+  --color-palette-one-200: #2a9d8f;
+  --color-palette-one-300: #e9c46a;
+  --color-palette-one-400: #f4a261;
+  --color-palette-one-500: #e76f51;
+  --color-palette-two-100: #dad7cd;
+  --color-palette-two-200: #a3b18a;
+  --color-palette-two-300: #588157;
+  --color-palette-two-400: #3a5a40;
+  --color-palette-two-500: #344e41;
+  --color-palette-three-100: #001219;
+  --color-palette-three-200: #005f73;
+  --color-palette-three-300: #0a9396;
+  --color-palette-three-400: #94d2bd;
+  --color-palette-three-500: #e9d8a6;
+  --color-palette-three-600: #ee9b00;
+  --color-palette-three-700: #ca6702;
+  --color-palette-three-800: #bb3e03;
+  --color-palette-three-900: #ae2012;
+  --color-palette-three-1000: #9b2226;
+  --color-palette-four-100: #c9cba3;
+  --color-palette-four-200: #ffe1a8;
+  --color-palette-four-300: #e26d5c;
+  --color-palette-four-400: #723d46;
+  --color-palette-four-500: #472d30;
+  --color-palette-five-100: #30362f;
+  --color-palette-five-200: #625834;
+  --color-palette-five-300: #a59132;
+  --color-palette-five-400: #da7422;
+
+  /* Transition */
+  --default-transition: all 0.5s ease-in-out;
+
+  /* Typography weights */
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Typography sizes & line-heights (mobile) */
+  --font-size-mobile-h1: 36px;
+  --line-height-mobile-h1: 40px;
+  --font-size-mobile-h2: 22px;
+  --line-height-mobile-h2: 28px;
+  --font-size-mobile-h3: 18px;
+  --line-height-mobile-h3: 24px;
+  --font-size-mobile-b1: 16px;
+  --line-height-mobile-b1: 22px;
+  --font-size-mobile-b2: 14px;
+  --line-height-mobile-b2: 20px;
+  --font-size-mobile-b3: 12px;
+  --line-height-mobile-b3: 16px;
+  --font-size-mobile-sm: 10px;
+  --line-height-mobile-sm: 14px;
+
+  /* Typography sizes & line-heights (desktop) */
+  --font-size-desktop-h1: 56px;
+  --line-height-desktop-h1: 60px;
+  --font-size-desktop-h2: 38px;
+  --line-height-desktop-h2: 42px;
+  --font-size-desktop-h3: 24px;
+  --line-height-desktop-h3: 30px;
+  --font-size-desktop-b1: 18px;
+  --line-height-desktop-b1: 24px;
+  --font-size-desktop-b2: 16px;
+  --line-height-desktop-b2: 22px;
+  --font-size-desktop-b3: 14px;
+  --line-height-desktop-b3: 20px;
+  --font-size-desktop-sm: 12px;
+  --line-height-desktop-sm: 16px;
+  --font-size-desktop-xs: 10px;
+  --line-height-desktop-xs: 14px;
+
+  /* Mobile First */
+  --font-size-h1: var(--font-size-mobile-h1);
+  --line-height-h1: var(--line-height-mobile-h1);
+  --font-size-h2: var(--font-size-mobile-h2);
+  --line-height-h2: var(--line-height-mobile-h2);
+  --font-size-h3: var(--font-size-mobile-h3);
+  --line-height-h3: var(--line-height-mobile-h3);
+  --font-size-b1: var(--font-size-mobile-b1);
+  --line-height-b1: var(--line-height-mobile-b1);
+  --font-size-b2: var(--font-size-mobile-b2);
+  --line-height-b2: var(--line-height-mobile-b2);
+  --font-size-b3: var(--font-size-mobile-b3);
+  --line-height-b3: var(--line-height-mobile-b3);
+  --font-size-sm: var(--font-size-mobile-sm);
+  --line-height-sm: var(--line-height-mobile-sm);
+
+  /* only desktop has extra-small sizing, for mobile stay with small size */
+  --font-size-xs: var(--font-size-mobile-sm);
+  --line-height-xs: var(--line-height-mobile-sm);
+
+  /* Shadow & elevation */
+  --color-shadow-rgb: 48, 49, 53; /* Hex #303135 (color-N800) in RGB */
+  /* stylelint-disable color-function-notation */
+  --elevation-1: 0 2px 8px 0 rgba(var(--color-shadow-rgb), 0.16);
+  --elevation-2: 0 8px 16px 0 rgba(var(--color-shadow-rgb), 0.1);
+}
+
+@media (min-width: 600px) {
+  :root {
+    /* Responsive container */
+    --edge-padding: 40px;
+  }
+}
+
+@media (min-width: 840px) {
+  :root {
+    /* Responsive typography */
+    --font-size-h1: var(--font-size-desktop-h1);
+    --line-height-h1: var(--line-height-desktop-h1);
+    --font-size-h2: var(--font-size-desktop-h2);
+    --line-height-h2: var(--line-height-desktop-h2);
+    --font-size-h3: var(--font-size-desktop-h3);
+    --line-height-h3: var(--line-height-desktop-h3);
+    --font-size-b1: var(--font-size-desktop-b1);
+    --line-height-b1: var(--line-height-desktop-b1);
+    --font-size-b2: var(--font-size-desktop-b2);
+    --line-height-b2: var(--line-height-desktop-b2);
+    --font-size-b3: var(--font-size-desktop-b3);
+    --line-height-b3: var(--line-height-desktop-b3);
+    --font-size-sm: var(--font-size-desktop-sm);
+    --line-height-sm: var(--line-height-desktop-sm);
+    --font-size-xs: var(--font-size-desktop-xs);
+    --line-height-xs: var(--line-height-desktop-xs);
+
+    /* Responsive container */
+    --container-max-width: 760px;
+  }
+}
+
+/* XLarge breakpoint */
+@media (min-width: 960px) {
+  :root {
+    /* Responsive container */
+    --edge-padding: 100px;
+    --container-max-width: none;
+  }
+}
+
+/* XXLarge breakpoint */
+@media (min-width: 1280px) {
+  :root {
+    /* Responsive container */
+    --edge-padding: 120px;
+  }
+}
+
+/* XXXLarge breakpoint */
+@media (min-width: 1440px) {
+  :root {
+    /* Responsive container */
+    --edge-padding: 120px;
+    --container-max-width: 1200px;
+  }
+}

@@ -1,0 +1,14 @@
+dist
+node_modules
+coverage
+labs
+scripts
+storybook-static
+.parcel-cache
+
+node_modules
+/**/build
+**/.next/
+dist
+build
+./**/.next

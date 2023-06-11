@@ -1,0 +1,33 @@
+# build artifact
+dist
+
+#root npmrc
+.npmrc
+
+# built storybook
+storybook-static
+
+# other files
+node_modules
+.parcel_cache
+.eslint_cahche
+.DS_store
+.verdaccio-db.json
+lerna-debug.log
+yarn-error.log
+
+# Custom
+/packages/*/build/**
+/packages/*/coverage/**
+/node_modules/**
+package-lock.json
+tmp
+dist
+*/dist
+./**/.next
+*.yaml
+*.yml
+*.next
+/packages/**/build
+/packages/**/dist
+Readme.md

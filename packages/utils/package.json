@@ -1,0 +1,41 @@
+{
+  "name": "@rms/forge-utils",
+  "version": "1.0.0",
+  "description": "Utilities package is shared by other components",
+  "keywords": [],
+  "author": "Rishi Mishra",
+  "homepage": "https://github.com/rishim777/RTS-UI/tree/main/packages/ui-text#readme",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "type": "module",
+  "types": "dist/types.d.ts",
+  "source": "src/index.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "sideEffects": [
+    "*.css",
+    "*.jpg",
+    "*.png",
+    "*.webp",
+    "*.mp4"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rishim777/RTS-UI.git"
+  },
+  "browserslist": ">0.1% in ID, not dead",
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/tiket/TIX-PASSPORT/issues"
+  },
+  "peerDependencies": {
+    "react": "17.0.2"
+  }
+}

@@ -1,0 +1,50 @@
+import { Meta } from '@storybook/blocks';
+
+<Meta title="Breakpoints" />
+
+# Responsive Breakpoints
+
+Please avoid defining your own breakpoints. To align with our **design principles** please use SASS
+mixin.
+
+You would develop mobile-first, and override using desktop media query.
+
+```scss
+// EXAMPLE
+@use '@rms/forge-design-tokens/breakpoint' as b;
+
+.dummy_class {
+  color: var(--color-black-100);
+}
+
+.other_dummy_class {
+  background: var(--color-black-300);
+}
+
+/* equivalent to @media (min-width: 840px) */
+@include b.breakpoint(desktop) {
+  .dummy_class {
+    color: var(--color-orange-100);
+  }
+
+  .other_dummy_class {
+    background: var(--color-orange-200);
+  }
+}
+```
+
+Besides `mobile` and `desktop`, there are other breakpoints too. List of available breakpoints
+
+a. min-width
+
+- xsmall - 400px
+- small - 500px
+- medium - 600px
+- large/desktop - 840px
+- xlarge - 960px
+- xxlarge - 1280px
+- xxxlarge - 1440px
+
+b. max-width
+
+- mobile - 839px

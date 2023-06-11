@@ -1,0 +1,201 @@
+import { Meta, ColorPalette, ColorItem } from '@storybook/blocks';
+
+import { colors } from '../../../packages/design-tokens/colors';
+
+<Meta title="Colors" />
+
+# Color Principles
+
+Please avoid defining your own color code. To align with our **design principles** please use design
+tokens CSS variables that you get when you import `@rms/forge-design-tokens/base.css`
+
+```scss
+// Example
+.dummy_class {
+  color: var(--color-black-100);
+}
+```
+
+## Color Tokens
+
+### Black
+
+<ColorPalette>
+  {['BLACK_100', 'BLACK_200', 'BLACK_300'].map((c) => (
+    <ColorItem
+      key={c}
+      title={c}
+      subtitle={`var(--color-${c.replaceAll('_', '-').toLowerCase()})`}
+      colors={[colors[c]]}
+    />
+  ))}
+</ColorPalette>
+
+### Orange
+
+<ColorPalette>
+  {['ORANGE_100', 'ORANGE_200', 'ORANGE_300'].map((c) => (
+    <ColorItem
+      key={c}
+      title={c}
+      subtitle={`var(--color-${c.replaceAll('_', '-').toLowerCase()})`}
+      colors={[colors[c]]}
+    />
+  ))}
+</ColorPalette>
+
+### Grey
+
+<ColorPalette>
+  {['GREY_100', 'GREY_200', 'GREY_300'].map((c) => (
+    <ColorItem
+      key={c}
+      title={c}
+      subtitle={`var(--color-${c.replaceAll('_', '-').toLowerCase()})`}
+      colors={[colors[c]]}
+    />
+  ))}
+</ColorPalette>
+
+### Gold
+
+<ColorPalette>
+  {['GOLD_100', 'GOLD_200'].map((c) => (
+    <ColorItem
+      key={c}
+      title={c}
+      subtitle={`var(--color-${c.replaceAll('_', '-').toLowerCase()})`}
+      colors={[colors[c]]}
+    />
+  ))}
+</ColorPalette>
+
+### Blue
+
+<ColorPalette>
+  <ColorItem title="BLUE" subtitle={`var(--color-blue)`} colors={[colors.BLUE]} />
+</ColorPalette>
+
+### White
+
+<ColorPalette>
+  <ColorItem title="WHITE" subtitle={`var(--color-white)`} colors={[colors.WHITE]} />
+</ColorPalette>
+
+### Yellow
+
+<ColorPalette>
+  <ColorItem title="YELLOW" subtitle={`var(--color-yellow)`} colors={[colors.YELLOW]} />
+</ColorPalette>
+
+### Red
+
+<ColorPalette>
+  <ColorItem title="RED" subtitle={`var(--color-red)`} colors={[colors.RED]} />
+</ColorPalette>
+
+### Pink
+
+<ColorPalette>
+  <ColorItem title="PINK" subtitle={`var(--color-pink)`} colors={[colors.PINK]} />
+</ColorPalette>
+
+### Green
+
+<ColorPalette>
+  <ColorItem title="GREEN" subtitle={`var(--color-green)`} colors={[colors.GREEN]} />
+</ColorPalette>
+
+### Palette One
+
+<ColorPalette>
+  {[
+    'PALETTE_ONE_100',
+    'PALETTE_ONE_200',
+    'PALETTE_ONE_300',
+    'PALETTE_ONE_400',
+    'PALETTE_ONE_500',
+  ].map((c) => (
+    <ColorItem
+      key={c}
+      title={c}
+      subtitle={`var(--color-${c.replaceAll('_', '-').toLowerCase()})`}
+      colors={[colors[c]]}
+    />
+  ))}
+</ColorPalette>
+
+### Palette Two
+
+<ColorPalette>
+  {[
+    'PALETTE_TWO_100',
+    'PALETTE_TWO_200',
+    'PALETTE_TWO_300',
+    'PALETTE_TWO_400',
+    'PALETTE_TWO_500',
+  ].map((c) => (
+    <ColorItem
+      key={c}
+      title={c}
+      subtitle={`var(--color-${c.replaceAll('_', '-').toLowerCase()})`}
+      colors={[colors[c]]}
+    />
+  ))}
+</ColorPalette>
+
+### Palette Three
+
+<ColorPalette>
+  {[
+    'PALETTE_THREE_100',
+    'PALETTE_THREE_200',
+    'PALETTE_THREE_300',
+    'PALETTE_THREE_400',
+    'PALETTE_THREE_500',
+    'PALETTE_THREE_600',
+    'PALETTE_THREE_700',
+    'PALETTE_THREE_800',
+    'PALETTE_THREE_900',
+    'PALETTE_THREE_1000',
+  ].map((c) => (
+    <ColorItem
+      key={c}
+      title={c}
+      subtitle={`var(--color-${c.replaceAll('_', '-').toLowerCase()})`}
+      colors={[colors[c]]}
+    />
+  ))}
+</ColorPalette>
+
+### Palette Four
+
+<ColorPalette>
+  {[
+    'PALETTE_FOUR_100',
+    'PALETTE_FOUR_200',
+    'PALETTE_FOUR_300',
+    'PALETTE_FOUR_400',
+    'PALETTE_FOUR_500',
+  ].map((c) => (
+    <ColorItem
+      key={c}
+      title={c}
+      subtitle={`var(--color-${c.replaceAll('_', '-').toLowerCase()})`}
+      colors={[colors[c]]}
+    />
+  ))}
+</ColorPalette>
+
+### Palette Five
+
+<ColorPalette>
+  {['PALETTE_FIVE_100', 'PALETTE_FIVE_200', 'PALETTE_FIVE_300', 'PALETTE_FIVE_400'].map((c) => (
+    <ColorItem
+      key={c}
+      title={c}
+      subtitle={`var(--color-${c.replaceAll('_', '-').toLowerCase()})`}
+      colors={[colors[c]]}
+    />
+  ))}
+</ColorPalette>

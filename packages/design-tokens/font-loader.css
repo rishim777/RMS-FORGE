@@ -1,0 +1,57 @@
+/* Warning: be careful not to import this file in several places */
+/* stylelint-disable font-family-name-quotes */
+@font-face {
+  font-family: 'ForgeDebugText';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Forge-DebugText.otf') format('otf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ForgeText';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Forge-Regular.ttf') format('ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ForgeText';
+  font-style: italic;
+  font-weight: 400;
+  src: url('./fonts/Forge-Italic.ttf') format('ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ForgeText';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./fonts/Forge-SemiBold.ttf') format('ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ForgeText';
+  font-style: italic;
+  font-weight: 600;
+  src: url('./fonts/Forge-SemiBoldItalic.ttf') format('ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ForgeText';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/Forge-Bold.ttf') format('ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ForgeText';
+  font-style: italic;
+  font-weight: 700;
+  src: url('./fonts/Forge-BoldItalic.ttf') format('ttf');
+  font-display: swap;
+}

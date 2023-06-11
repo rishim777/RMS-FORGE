@@ -1,0 +1,34 @@
+#env
+.env
+
+# build artifact
+dist
+
+# built storybook
+storybook-static
+build-storybook.log
+
+# IDE
+.idea
+
+#Cache Files
+.parcel-cache
+.eslintcache
+
+# other files
+node_modules
+.verdaccio-db.json
+lerna-debug.log
+yarn-error.log
+
+#custom
+/build
+/package
+.env
+.env.*
+!.env.example
+.vercel
+.output
+/packages/**/build
+/packages/**/dist
+.eslint_cache

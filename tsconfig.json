@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "noEmit": true,
+    "strict": true,
+    "jsx": "react",
+    "esModuleInterop": false,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "sourceMap": true,
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules",
+        "options": {
+          "rendererOptions": {
+            "sass": {
+              // include any one node_modules that contains @rms/forge-design-tokens
+              // so this plugin knows how to resolve `@use '@rms/forge-design-tokens/..'`
+              "loadPaths": ["./packages/typography/node_modules"]
+            }
+          }
+        }
+      }
+    ],
+    // squanches the following warning
+    // @parcel/transformer-typescript-types: Cannot find name 'process'.
+    // Do you need to install type definitions for node? Try `npm i --save-dev @types/node`.
+    "types": ["node"]
+  },
+  "include": ["packages", "scss.d.ts", "stories/packages/text/Text.stories.tsx"],
+  "exclude": ["node_modules"]
+}
