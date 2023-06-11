@@ -17,7 +17,9 @@
     "@storybook/preview-api": "^7.0.7",
     "@storybook/react": "^7.0.7",
     "@storybook/react-vite": "^7.0.20",
-    "eslint-plugin-storybook": "^0.6.11"
+    "storybook": "^7.0.20",
+    "eslint-plugin-storybook": "^0.6.11",
+    "remark-gfm": "^3.0.1"
   },
   "keywords": [],
   "author": "Rishi Mishra",
