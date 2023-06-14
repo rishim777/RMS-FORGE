@@ -1,9 +1,9 @@
 import React, { ReactNode } from 'react';
-import type { ColorType, Size, Weight } from '@rms/forge-utils';
+import { ColorType, Size, Weight } from './types';
 
 import styles from './Text.module.scss';
 
-type TextProp = {
+export type TextProp = {
   size: Size;
   weight?: Weight;
   color?: ColorType;

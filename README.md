@@ -1,6 +1,8 @@
-pnpm add -Dw eslint eslint-config-prettier eslint-plugin-import 
-eslint-plugin-simple-import-sort eslint-plugin-react @typescript-eslint/eslint-plugin @typescript-eslint/parser prettier           
+To install any package locally
+pnpm i path/to/package
 
+Example for installing @rms/forge-text
 
-"dev": "pnpm --filter @rms-forge/stories run storybook",
-"dev:https": "concurrently \"npm run ssl-proxy\" \"npm run dev\"",
+```
+pnpm i D:/Development/rms-forge/packages/text
+```
