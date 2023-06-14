@@ -15,7 +15,8 @@
     "dev:https": "concurrently \"npm run ssl-proxy\" \"npm run dev\"",
     "ssl-proxy": "source .env && local-ssl-proxy --key ${SSL_KEY_FILE} --cert ${SSL_CERT_FILE} --source 6007 --target 6006",
     "prepare": "is-ci || husky install",
-    "remove-dist": "for /d %i in (./packages/*/dist/) do rd /s /q '%i'",
+    "remove-dist-wind": "for /d %i in (./packages/*/dist/) do rd /s /q '%i'",
+    "remove-dist": "rm -rf ./packages/*/dist/",
     "prebuild": "npm run remove-dist",
     "build": "parcel build packages/*",
     "format": "prettier . --write",
@@ -27,7 +28,8 @@
     "check-all": "npm run type-check && npm run lint:js && npm run lint:css",
     "create:component": "node scripts/scaffolds/component-starter-code.mjs",
     "chromatic": "chromatic --exit-zero-on-changes",
-    "release": "npm run build && changeset publish"
+    "release": "npm run build && changeset publish",
+    "release-wind": "npm run wind-build && changeset publish"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.8",
