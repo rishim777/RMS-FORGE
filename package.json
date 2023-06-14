@@ -3,10 +3,13 @@
   "version": "1.0.1",
   "description": "UI Library By RM",
   "main": "index.js",
-  "repository": "",
   "author": "Rishi Mishra",
   "license": "ISC",
-  "homepage": "",
+  "repository": "git+https://github.com/rishim777/RMS-FORGE.git",
+  "homepage": "https://github.com/rishim777/RMS-FORGE#readme",
+  "bugs": {
+    "url": "https://github.com/rishim777/RMS-FORGE/issues"
+  },
   "scripts": {
     "dev": "pnpm --filter @rms-forge/stories run storybook",
     "dev:https": "concurrently \"npm run ssl-proxy\" \"npm run dev\"",
