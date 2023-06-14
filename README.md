@@ -6,5 +6,19 @@ Example for installing @rishim777/forge-text
 ```
 pnpm i D:/Development/rms-forge/packages/text
 ```
- "remove-dist-wind": "for /d %i in (./packages/*/dist/) do rd /s /q '%i'",
- "release-wind": "npm run wind-build && changeset publish"
+
+Set Github Token
+
+* in windows ```set GITHUB_TOKEN=```
+* in linux/MAC ```export const GITHUB_TOKEN=```
+
+Different command for package.json
+- Mac/Linux
+```
+"remove-dist": "rm -rf ./packages/*/dist/"
+```
+
+- Windows
+```
+"remove-dist-wind": "for /d %i in (./packages/*/dist/) do rd /s /q '%i'"
+```
