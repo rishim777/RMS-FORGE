@@ -70,7 +70,7 @@ async function setupFolderStructureAndFiles(packageName) {
   // package-name/index.ts
   const rootIndexFileContent = `export * from './src';`;
   // package-name/src/index.ts
-  const defaultIndexFileContent = `/// <reference types='@rms/forge-utils/parcel' />
+  const defaultIndexFileContent = `/// <reference types='@rishim777/forge-utils/parcel' />
   export * from './${componentName}';`;
 
   const defaultScssFileContent = '.container { padding: 40px; }';

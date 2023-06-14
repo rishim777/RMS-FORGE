@@ -1,5 +1,5 @@
 {
-  "name": "@rms/forge",
+  "name": "@rishim777/forge",
   "version": "2.0.0",
   "description": "Forge components",
   "keywords": [],
@@ -18,9 +18,9 @@
     "test": "__tests__"
   },
   "dependencies": {
-    "@rms/forge-design-tokens": "workspace:*",
-    "@rms/forge-text": "workspace:*",
-    "@rms/forge-utils": "workspace:*"
+    "@rishim777/forge-design-tokens": "workspace:*",
+    "@rishim777/forge-text": "workspace:*",
+    "@rishim777/forge-utils": "workspace:*"
   },
   "peerDependencies": {
     "react": "^17.0.2"

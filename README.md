@@ -1,7 +1,7 @@
 To install any package locally
 pnpm i path/to/package
 
-Example for installing @rms/forge-text
+Example for installing @rishim777/forge-text
 
 ```
 pnpm i D:/Development/rms-forge/packages/text

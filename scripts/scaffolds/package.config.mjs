@@ -1,5 +1,5 @@
 // @ts-check
-export const packageScope = '@rms';
+export const packageScope = '@rishim777';
 export const packagePrefix = 'ui';
 
 /**
@@ -29,10 +29,10 @@ export function createPackageJson({ packageName }) {
     },
     dependencies: {
       classnames: '^2.3.2',
-      '@rms/forge-utils': 'workspace:*',
+      '@rishim777/forge-utils': 'workspace:*',
     },
     devDependencies: {
-      // '@rms/forge-design-tokens': 'workspace:*',
+      // '@rishim777/forge-design-tokens': 'workspace:*',
     },
     peerDependencies: {
       react: '^17.0.2',

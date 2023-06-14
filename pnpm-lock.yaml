@@ -161,13 +161,13 @@ importers:
 
   packages/forge:
     dependencies:
-      '@rms/forge-design-tokens':
+      '@rishim777/forge-design-tokens':
         specifier: workspace:*
         version: link:../design-tokens
-      '@rms/forge-text':
+      '@rishim777/forge-text':
         specifier: workspace:*
         version: link:../text
-      '@rms/forge-utils':
+      '@rishim777/forge-utils':
         specifier: workspace:*
         version: link:../utils
       react:
@@ -176,7 +176,7 @@ importers:
 
   packages/text:
     dependencies:
-      '@rms/forge-utils':
+      '@rishim777/forge-utils':
         specifier: workspace:*
         version: link:../utils
       classnames:

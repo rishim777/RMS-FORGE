@@ -1,4 +1,4 @@
-# `@rms/forge-design-tokens`
+# `@rishim777/forge-design-tokens`
 
 Collections of (S)CSS files, variables, and mixins as Tiket Passport’s design
 token.
@@ -6,8 +6,8 @@ token.
 ## Installation
 
 ```shell
-# if you’ve installed @rms/forge, you don’t need to install this package separately
-npm install @rms/forge-design-tokens
+# if you’ve installed @rishim777/forge, you don’t need to install this package separately
+npm install @rishim777/forge-design-tokens
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ Importing `base.css` will include:
 3. Design tokens in the form of CSS variables
 
 ```tsx
-import '@rms/forge-design-tokens/base.css';
+import '@rishim777/forge-design-tokens/base.css';
 ```
 
 For available design tokens: browser inspect `:root`

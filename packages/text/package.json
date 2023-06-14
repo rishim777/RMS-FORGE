@@ -1,5 +1,5 @@
 {
-  "name": "@rms/forge-text",
+  "name": "@rishim777/forge-text",
   "version": "2.0.0",
   "description": "RTS-UI {TODO} Component",
   "keywords": [],
@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "classnames": "^2.3.2",
-    "@rms/forge-utils": "workspace:*"
+    "@rishim777/forge-utils": "workspace:*"
   },
   "devDependencies": {},
   "peerDependencies": {

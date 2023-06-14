@@ -1,2 +1,2 @@
-/// <reference types="@rms/forge-utils/parcel" />
+/// <reference types="@rishim777/forge-utils/parcel" />
 export * from './Text';

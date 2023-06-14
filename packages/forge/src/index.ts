@@ -1,2 +1,2 @@
-export { throttle } from '@rms/forge-utils';
-export { Text } from '@rms/forge-text';
+export { throttle } from '@rishim777/forge-utils';
+export { Text } from '@rishim777/forge-text';

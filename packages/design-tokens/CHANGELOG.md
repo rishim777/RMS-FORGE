@@ -1,4 +1,4 @@
-# @rms/forge-design-tokens
+# @rishim777/forge-design-tokens
 
 ## 2.0.0
 

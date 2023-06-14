@@ -20,8 +20,8 @@
         "options": {
           "rendererOptions": {
             "sass": {
-              // include any one node_modules that contains @rms/forge-design-tokens
-              // so this plugin knows how to resolve `@use '@rms/forge-design-tokens/..'`
+              // include any one node_modules that contains @rishim777/forge-design-tokens
+              // so this plugin knows how to resolve `@use '@rishim777/forge-design-tokens/..'`
               "loadPaths": ["./packages/typography/node_modules"]
             }
           }

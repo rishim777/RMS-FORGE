@@ -1,4 +1,4 @@
-# `@rms/forge`
+# `@rishim777/forge`
 
 Package that exports (most of) Forge components, design tokens, and utils
 (context, etc.).
@@ -6,7 +6,7 @@ Package that exports (most of) Forge components, design tokens, and utils
 ## Installation
 
 ```shell
-npm install @rms/passport
+npm install @rishim777/passport
 ```
 
 ## Usage
@@ -14,5 +14,5 @@ npm install @rms/passport
 ### React components
 
 ```tsx
-import { Button, Card, Text } from '@rms/passport';
+import { Button, Card, Text } from '@rishim777/passport';
 ```

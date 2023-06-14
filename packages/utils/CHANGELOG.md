@@ -1,4 +1,4 @@
-# @rms/forge-utils
+# @rishim777/forge-utils
 
 ## 2.0.0
 
