@@ -22,3 +22,7 @@ Different command for package.json
 ```
 "remove-dist-wind": "for /d %i in (./packages/*/dist/) do rd /s /q '%i'"
 ```
+
+For publishing the package it is reaquired that .npmrc file
+//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}
+${GITHUB_TOKEN} -- this should be replaced with your GITHUB_TOKEN
